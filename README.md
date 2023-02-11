@@ -10,7 +10,7 @@ This repository contains the code for our recent work on safe-guarding images ag
 
 ```bibtex
     @article{salman2022photoguard,
-        title={PhotoGuard: Defending Against Diffusion-based Image Manipulation},
+        title={Raising the Cost of AI-Powered Image Editing via Adversarial Perturbations},
         author={Hadi Salman and Alaa Khaddaj and Guillaume Leclerc and Andrew Ilyas and Aleksander Madry},
         year={2022},
         booktitle={Github Repository}
