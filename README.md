@@ -1,10 +1,10 @@
-# PhotoGuard: Defending Against Diffusion-based Image Manipulation
+# Raising the Cost of AI-Powered Image Editing via Adversarial Perturbations
 
 
 This repository contains the code for our recent work on safe-guarding images against manipulation by ML-powerd photo-editing models such as [stable diffusion](https://stability.ai/blog/stable-diffusion-public-release).
 
-**PhotoGuard: Defending Against Diffusion-based Image Manipulation** <br>
-*Hadi Salman\*, Alaa Khaddaj\*, Guillaume Leclerc\*, Andrew Ilyas\*, Aleksander Madry* <br>
+**Raising the Cost of AI-Powered Image Editing via Adversarial Perturbations** <br>
+*Hadi Salman\*, Alaa Khaddaj\*, Guillaume Leclerc\*, Andrew Ilyas, Aleksander Madry* <br>
 **Paper:** Coming soon! <br>
 **Blog post:** https://gradientscience.org/photoguard/  <br>
 
@@ -48,7 +48,7 @@ See [this notebook](notebooks/generating_fake_images.ipynb)!
 </p>
 
 
-## Simple photo-guarding:
+## Simple photo-guarding (Encoder Attack):
 Now, we describe the simplest form of photo safeguarding that we implement. In particular, we implement a simple PGD attack on the image embedding part of the stable diffusion model. We have two demos demonstrating the efficacy of such photo safeguarding method. The goal of both is to cause the stable diffusion model to generate something that is either unrealistic, or unrelated to the original image.
 
 ### Photo-guarding against Image-to-Image pipelines
@@ -73,7 +73,7 @@ See [this notebook](notebooks/demo_simple_attack_inpainting.ipynb)!
 </p>
 
 
-## Complex photo-guarding
+## Complex photo-guarding (Diffusion attack)
 For more effective photo-guarding especially against image inpainting, we need to attack the stable diffusion model end-to-end. Now, the generated images after immunization are even more clearly fake than above!
 
 See [this notebook](notebooks/demo_complex_attack_inpainting.ipynb)!
@@ -84,12 +84,4 @@ See [this notebook](notebooks/demo_complex_attack_inpainting.ipynb)!
 
 
 
-That's it! Please let us know if you have any questions.
-
-# Maintainers
-
-* [Hadi Salman](https://twitter.com/hadisalmanX)
-* [Alaa Khaddaj](https://twitter.com/Alaa_Khaddaj) 
-* [Guillaume Leclerc](https://twitter.gcom/gpoleclerc) 
-* [Andrew Ilyas](https://twitter.com/andrew_ilyas)
-* [Aleksander Madry](https://twitter.com/aleks_madry) 
+That's it! Please let us know if you have any questions. And check our paper for details about each of these attacks.
