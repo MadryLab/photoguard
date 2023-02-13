@@ -18,7 +18,9 @@ This repository contains the code for our recent work on safe-guarding images ag
 ```
 
 <p>
-<img src="assets/hero_fig.png" width="1000" >
+<kbd>
+<img src="assets/hero_fig.PNG" width="1000" >
+</kbd>
 </p>
 
 ## Getting started
