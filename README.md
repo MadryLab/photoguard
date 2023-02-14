@@ -1,19 +1,19 @@
-# Raising the Cost of AI-Powered Image Editing via Adversarial Perturbations
+# Raising the Cost of Malicious AI-Powered Image Editing
 
 
 This repository contains the code for our recent work on safe-guarding images against manipulation by ML-powerd photo-editing models such as [stable diffusion](https://stability.ai/blog/stable-diffusion-public-release).
 
-**Raising the Cost of AI-Powered Image Editing via Adversarial Perturbations** <br>
+**Raising the Cost of Malicious AI-Powered Image Editing** <br>
 *Hadi Salman\*, Alaa Khaddaj\*, Guillaume Leclerc\*, Andrew Ilyas, Aleksander Madry* <br>
-**Paper:** Coming soon! <br>
+**Paper:** https://arxiv.org/abs/2302.06588 <br>
 **Blog post:** https://gradientscience.org/photoguard/  <br>
 
 ```bibtex
-    @article{salman2022photoguard,
-        title={Raising the Cost of AI-Powered Image Editing via Adversarial Perturbations},
+    @article{salman2023raising,
+        title={Raising the Cost of Malicious AI-Powered Image Editing},
         author={Hadi Salman and Alaa Khaddaj and Guillaume Leclerc and Andrew Ilyas and Aleksander Madry},
-        year={2022},
-        booktitle={Github Repository}
+        year={2023},
+        booktitle={arXiv:2302.06588}
     }
 ```
 
