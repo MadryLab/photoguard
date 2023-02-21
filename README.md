@@ -7,6 +7,7 @@ This repository contains the code for our recent work on safe-guarding images ag
 *Hadi Salman\*, Alaa Khaddaj\*, Guillaume Leclerc\*, Andrew Ilyas, Aleksander Madry* <br>
 **Paper:** https://arxiv.org/abs/2302.06588 <br>
 **Blog post:** https://gradientscience.org/photoguard/  <br>
+**Demo:** https://huggingface.co/spaces/RamAnanth1/photoguard <br>
 
 ```bibtex
     @article{salman2023raising,
