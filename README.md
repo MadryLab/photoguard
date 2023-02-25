@@ -7,13 +7,14 @@ This repository contains the code for our recent work on safe-guarding images ag
 *Hadi Salman\*, Alaa Khaddaj\*, Guillaume Leclerc\*, Andrew Ilyas, Aleksander Madry* <br>
 **Paper:** https://arxiv.org/abs/2302.06588 <br>
 **Blog post:** https://gradientscience.org/photoguard/  <br>
+**Interactive demo:** Coming soon!  <br>
 
 ```bibtex
     @article{salman2023raising,
-        title={Raising the Cost of Malicious AI-Powered Image Editing},
-        author={Hadi Salman and Alaa Khaddaj and Guillaume Leclerc and Andrew Ilyas and Aleksander Madry},
-        year={2023},
-        booktitle={arXiv:2302.06588}
+      title={Raising the Cost of Malicious AI-Powered Image Editing},
+      author={Salman, Hadi and Khaddaj, Alaa and Leclerc, Guillaume and Ilyas, Andrew and Madry, Aleksander},
+      journal={arXiv preprint arXiv:2302.06588},
+      year={2023}
     }
 ```
 
