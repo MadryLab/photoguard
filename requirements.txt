@@ -1,0 +1,6 @@
+diffusers==0.10.2
+transformers
+scipy
+accelerate
+torchvision
+--extra-index-url https://download.pytorch.org/whl/cu113
