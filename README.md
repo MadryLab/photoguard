@@ -44,11 +44,11 @@ Our code relies on the [stable diffusion code on Hugging Face](https://github.co
 
 We created an interactive demo to demonstrate our work using [gradio](https://gradio.app/). We are hosting the demo on [this HuggingFace space](https://huggingface.co/spaces/hadisalman/photoguard).
 
-<center>
+<p align="center">
 <kbd>
 <img src="assets/demo_screenshot.png" width="500" >
 </kbd>
-</center>
+</p>
 
 However, for faster inference, you can run the demo locally on your machine! Simply follow this:
 
@@ -65,9 +65,9 @@ The first step is we will walk you through how you can generate high quality fak
 See [this notebook](notebooks/generating_fake_images.ipynb)!
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1pwfeSe6MUjD7UfqdWxurMSWWZhic9TPl?usp=sharing)
 
-<center>
+<p align="center">
 <img src="assets/hadi_trevor.png" width="500" >
-</center>
+</p>
 
 ## Simple photo-guarding (Encoder Attack):
 
@@ -80,9 +80,9 @@ The first is the case where someone uses an image + prompt to modify the input i
 See [this notebook](notebooks/demo_simple_attack_img2img.ipynb)!
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1P9_Xkbb05d5ynuvucFO6TjXJoXLq_Vyg?usp=sharing)
 
-<center>
+<p align="center">
 <img src="assets/simple_attack_img2img.png" width="500" >
-</center>
+</p>
 
 ### Photo-guarding against Inpainting pipelines
 
@@ -91,9 +91,9 @@ The second is the more interesting scenario where someone wants to edit parts of
 See [this notebook](notebooks/demo_simple_attack_inpainting.ipynb)!
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1q-p8_PWROVOAl6B07znev0W-Z9gKgoW2?usp=sharing)
 
-<center>
+<p align="center">
 <img src="assets/simple_attack_inpaint.png" width="500" >
-</center>
+</p>
 
 ## Complex photo-guarding (Diffusion attack)
 
@@ -101,8 +101,8 @@ For more effective photo-guarding especially against image inpainting, we need t
 
 See [this notebook](notebooks/demo_complex_attack_inpainting.ipynb)!
 
-<center>
+<p align="center">
 <img src="assets/complex_attack_inpaint.png" width="500" >
-</center>
+</p>
 
 That's it! Please let us know if you have any questions. And check our paper for details about each of these attacks.
